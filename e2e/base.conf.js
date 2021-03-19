@@ -13,7 +13,7 @@ config.specs = [
 	//'specs/manchoos-Tmgs-Calendar.js'
 	//'specs/manchoos-tmgs-holiday.js'
 	//'specs/manchoos-Modifiers.js'
-	//  'specs/manchoos-Addons.js'
+	//'specs/manchoos-Addons.js'
 ];
 
 config.onPrepare = function () {
