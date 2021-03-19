@@ -35,6 +35,8 @@ module.exports = function () {
         browser.get(path)
         return this;
     }
+    
+    
 
     this.clickOnHeaderAddOns=function(){
         buttonActions.click(headerAddOns)
