@@ -6,8 +6,8 @@ var fs = require('fs-extra');
 waitTimeout = 120000;
 
 config.specs = [
-    './global.js',
-	'./specs/sampleTest.js',
+    `${__dirname}/global.js`,
+	`${__dirname}/specs/sampleTest.js`,
 	//'specs/manchoos-Valet.js',
 	//'specs/manchoos-DineIn.js',
 	//'specs/manchoos-Tmgs-Calendar.js'
